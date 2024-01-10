@@ -58,7 +58,7 @@ else {
 const FG = document.querySelector(".fg");
 if (FG) {
     luka.fgm = luka.status[5];
-    FG.innerText = "fg%: " + luka.fgm;
+    FG.innerText = "FG%: " + luka.fgm;
 }
 else {
     console.error("Elemento não encontrado com a classe 'pts'");
